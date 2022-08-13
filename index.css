@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=BhuTuka+Expanded+One&family=Josefin+Slab:wght@600&family=Jost:wght@400;600&family=Oswald:wght@700&family=PT+Mono&family=Passion+One&family=Poiret+One&family=Roboto&family=Rubik+Dirt&family=Special+Elite&family=Square+Peg&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=BhuTuka+Expanded+One&family=Josefin+Slab:wght@600&family=Jost:wght@400;600&family=Oswald:wght@700&family=PT+Mono&family=Passion+One&family=Podkova&family=Poiret+One&family=Roboto&family=Rubik+Dirt&family=Special+Elite&family=Square+Peg&family=Staatliches&display=swap');
+
+.centering{
+    
+    
+}
+.header {
+    font-family: 'Josefin Slab', serif;
+    display:flex;
+    justify-content:center;
+    
+}
+
+
+
+.input_button{
+    display:flex;
+    justify-content:center;
+}
+
+.osnova{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 300px;
+}
+
+.firstBlock {
+    background-color: rgb(238, 238, 238);
+    border:1px solid black;
+    border-radius:3px;
+    width: 30%;
+    height: 200px;
+    min-height: 100px;
+    min-width: 150px;
+    font-family: 'Podkova', serif;
+    text-align: center
+
+}
+.secondBlock {
+    background-color: rgb(238, 238, 238);
+    border:1px solid black;
+    border-radius:3px;
+    width: 30%;
+    height: 200px;
+    min-height: 100px;
+    min-width: 150px;
+    font-family: 'Podkova', serif;
+    text-align: center
+}
+
+#input {
+     
+     font-size: 15px;
+     font-family: 'PT Mono', monospace;
+    
+    }
+
+.button  {   
+    font-size: 15px;
+    font-family: 'PT Mono', monospace;
+} 
+
+@media (min-width: 350px) and (max-width: 768px) {
+    .input_button {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        margin: 10px;
+        width: 300px;
+    }
+    #input{
+        width: 300px;
+    }
+    .osnova {
+        flex-direction: column;
+    }
+    .firstBlock{
+        width: 300px;
+        
+    }
+    .secondBlock{
+        width: 300px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+
+    .firstBlock{
+        width: 250px;
+        
+    }
+    .secondBlock{
+        width: 250px;
+    }
+    
+}
